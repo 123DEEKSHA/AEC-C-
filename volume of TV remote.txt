@@ -1,0 +1,22 @@
+6.#include <iostream>
+using namespace std;
+int main() {
+    int v,v1,v2,t;
+    cout<<"Enter the testcase:"<<endl;
+    cin>>t;
+    cout<<"Enter the voulme:"<<endl;
+    cin>>v;
+    while(t--)
+    {
+        cout<<"enter the volume to be updated"<<endl;
+        cin>>v1;
+    
+         if(v>v1)
+         v2=v-v1;
+         else
+         v2=v1-v;
+        cout<<" the volume to be updates is"<<v2<<endl;
+        }
+        return 0;
+}
+
